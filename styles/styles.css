@@ -124,12 +124,12 @@ footer {
         margin-right: 100px;
     }
     .about p {
-        font-weight: 100px;
+        font-weight: 400;
         width: auto;
         margin-right: 150px;
     }
     .projects {
-        font-weight: 200px;
+        font-weight: 200;
         font-size: 10px;
     }
 
@@ -154,7 +154,7 @@ footer {
         margin-right: 0;
     }
     .about p {
-        font-weight: 100px;
+        font-weight: 400;
         width: auto;
         margin: 0;
     }
