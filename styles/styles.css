@@ -71,9 +71,16 @@ nav div a {
     padding: 10px 7px;
 }
 
+.portrait {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:rgb(0, 255, 136);
+    padding: 7px
+}
+
 .projects ul li a {
     font-family: "Montserrat", serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
     color: #ffffff;
     text-decoration: none;
