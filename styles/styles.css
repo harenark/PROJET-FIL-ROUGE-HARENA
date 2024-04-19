@@ -2,6 +2,7 @@
     margin: 0;
     border: 0;
 }
+
 .about {
     font-family: "Yeseva One", sans-serif;
     font-optical-sizing: auto;
@@ -12,49 +13,58 @@
     color: hwb(0 100% 0%);
     padding-left: 75px;
 }
+
 hr {
     border: 0.25px solid white;
 }
+
 .about h2 {
     font-weight: 900;
     width: 375px;
 }
+
 .aquamarine {
     color: rgb(0, 255, 136);
 }
+
 .about p {
     font-size: 0.8em;
     font-weight: 100;
     width: 475px;
     padding-top: 25px;
 }
+
 .logo {
     color: #dadada;
     text-decoration: none;
     margin-right: auto;
     margin-left: 10px;
-    display: inline-block;
+    display: flex;
 }
+
 nav {
     display: flex;
     align-items: center;
-    background-color: rgba(9, 24, 32, 255);
+    background-color: rgb(9, 24, 32);
 }
+
 nav div a {
     color: #ffffff;
     font-weight: 600;
-    display: inline-block;
     text-align: center;
     padding: 10px 7px;
     text-decoration: none;
     font-size: 20px;
+    margin-bottom: 10%;
 }
+
 .about p {
     font-family: "Montserrat", serif;
     font-weight: 400;
     font-style: normal;
     color: #a8a4a4;
 }
+
 .projects {
     background-color: rgba(9, 24, 32, 255);
     color: #f2f2f2;
@@ -64,17 +74,18 @@ nav div a {
     align-items: center;
     justify-content: center;
 }
+
 .projects ul li {
 
     font-weight: 600;
-    display: inline-block;
+    display: inline-flex;
     padding: 10px 7px;
 }
 
 .portrait {
     border: 1px solid black;
     border-radius: 5px;
-    background-color:rgb(0, 255, 136);
+    background-color: rgb(0, 255, 136);
     padding: 7px
 }
 
@@ -85,9 +96,11 @@ nav div a {
     color: #ffffff;
     text-decoration: none;
 }
+
 .projects-list span {
     color: aquamarine;
 }
+
 .gallery {
     padding: 10px 150px;
     max-width: none;
@@ -99,10 +112,12 @@ nav div a {
     column-gap: 7.5px;
     row-gap: 7.5px;
 }
+
 .gallery div img {
     width: 100%;
     height: 100%;
 }
+
 footer {
     padding-top: 20%;
     background-color: rgba(9, 24, 32, 255);
@@ -113,6 +128,7 @@ footer {
     font-optical-sizing: auto;
     font-style: normal;
 }
+
 @media only screen and (max-width: 768px) {
     .gallery {
         padding: 0 100px;
@@ -123,12 +139,14 @@ footer {
         column-gap: 5px;
         row-gap: 5px;
     }
+
     .about h2 {
         font-size: 1.5em;
         font-weight: 900;
         width: auto;
         margin-right: 100px;
     }
+
     .about p {
         font-weight: 100px;
         width: auto;
@@ -142,6 +160,7 @@ footer {
 
 
 }
+
 @media only screen and (max-width: 480px) {
     .gallery {
         padding: 10px;
