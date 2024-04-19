@@ -5,7 +5,6 @@
 
 .about {
     font-family: "Yeseva One", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
     padding-top: 25px;
     padding-bottom: 50px;
@@ -106,7 +105,6 @@ footer {
     font-size: 10px;
     text-align: center;
     font-family: "Yeseva One", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
 }
 @media only screen and (max-width: 768px) {
