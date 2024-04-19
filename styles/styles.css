@@ -34,6 +34,10 @@ hr {
     margin-right: auto;
     margin-left: 10px;
     display: flex;
+    border: 2px solid rgba(9, 24, 32, 255);
+}
+.point{
+    color:rgb(0, 255, 136)
 }
 nav {
     display: flex;
@@ -71,7 +75,6 @@ nav div a {
 }
 .portrait {
     border: 1px solid black;
-    border-radius: 5px;
     background-color: rgb(0, 255, 136);
     padding: 7px
 }
